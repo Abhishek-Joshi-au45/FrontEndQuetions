@@ -1,0 +1,57 @@
+body{
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,242,125,1) 35%, rgba(0,212,255,1) 100%);
+}
+/* #div1{
+    margin : 50px ;
+    padding: 20px;
+}
+#div2{
+    margin-top: 150px ;
+    margin-left: 50px;
+    padding: 20px;
+} */
+/* span{
+    padding: 50px ;
+    border: 2px solid;
+    margin-left: 20px;
+} */
+#Primary{
+    background-color: rgb(143, 88, 88);
+}
+#Secondary{
+    background-color: brown;
+}
+#Neutral{
+    background-color: white;
+}
+#Accent{
+    background-color: blue;
+}
+#Success{
+    background-color: green;
+}
+#Alert{
+    background-color: red;
+}
+#Warning{
+    background-color: yellow;
+}
+#Info{
+    background-color: rgb(10, 175, 180);
+}
+.hover:hover{
+    box-shadow: 10px 10px lightblue;  
+    transform: rotate(20deg); 
+}
+.div{
+    display: block;
+    height: 500px;
+    width: 500px;
+
+}
+.hover{
+    height: 200px;
+    width: 200px;
+    display: inline;
+}

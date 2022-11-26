@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .same1{
+          background-color: yellow;
+          height: 100px;
+            width: 100px;
+            border-radius: 8px;
+        }
+        .same2{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            border-radius: 8px;
+        }
+        .same3{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            border-radius: 8px;
+        }
+        #main{
+            text-align: center;
+        }
+        .div{
+            margin: 10px;
+            
+        }
+        #main{
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #para{
+            font-weight: bold;
+        }
+    </style>
+    <script src="w19d5ass.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <div class="div">
+            <select class="firstRow same1" id="zero0">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+            <select class="firstRow same2" id="zero1">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>    
+            <select class="firstRow same3" id="zero2">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>    
+        </div>
+        <div class="div">
+            <select class="secondRow same1" id="one0">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+            <select class="secondRow same3" id="one1">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+            <select class="secondRow same2" id="one2">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+        </div>
+        <div class="div">
+            <select class="thirdRow same2" id="two0">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+            <select class="thirdRow same3" id="two1">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+            <select class="thirdRow same1" id="two2">
+                <option>Select</option>
+                <option>0</option>
+                <option>X</option>
+            </select>
+        </div>
+        <div><button type="submit" id="btn">Submit Result</button></div>
+        <br><br>
+        <div>
+        <span id="para">The winner is : </span>
+        <input type="text" value="" id="res">
+        </div>
+    </div>
+</body>
+</html>

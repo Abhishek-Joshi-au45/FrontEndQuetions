@@ -1,0 +1,29 @@
+.Same {
+padding: 15px;
+border: 0ch;
+border-radius: 8px;
+font-size: medium;
+}
+#Deafult{
+background-color: white;
+}
+#Primary{
+background-color: blue;
+}
+#Success{
+background-color: green;
+}
+#Info{
+background-color: skyblue;
+}
+#Warning{
+background-color: yellow;
+}
+#Danger{
+background-color: red;
+}
+div{
+    background-color: brown;
+    margin: 20px;
+    padding: 10px;
+}
